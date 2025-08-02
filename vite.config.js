@@ -6,5 +6,5 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 100000000,
   },
-  base: '/react_portfolio_site/',
+  base: '/portfolio_site/',
 });

@@ -9,7 +9,7 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.1} groundColor="black" />
+      <hemisphereLight intensity={0.1} groundColor="blue" />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -30,7 +30,7 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
 
   useEffect(() => {
     // Add a listener for changes to the screen size

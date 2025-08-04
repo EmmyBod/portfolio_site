@@ -175,11 +175,11 @@ const Contact = () => {
           <article className="contact__option">
             <MdEmail />
             <a
-              href="mailto:emmanuelolatunbosun020@gmail.com"
+              href="mailto:emmyolatey@gmail.com"
               target="_blank"
               className="blue-text-gradient"
             >
-              emmanuelolatunbosun020@gmail.com
+              emmyolatey@gmail.com
             </a>
           </article>
           <article className="contact__option">

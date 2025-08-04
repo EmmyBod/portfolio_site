@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-// import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas } from "./canvas";
 import { init } from "ityped";
 import React, { useEffect, useRef } from "react";
 import { AiOutlineGithub } from "react-icons/ai";
@@ -17,13 +17,12 @@ const Hero = () => {
       showCursor: true,
       strings: [
         "WordPress Developer",
-        " Frontend Developer",
+        "CMS Memberstack",
         " Webflow Developer ",
         "Shopify Developer ",
-        "WooCommerce Expert",
+        "Figma to Webflow Expert",
         "Elementor Pro",
-        "SEO Expert",
-        "Tech Enthusiast ",
+        "SEO Specialist",
       ],
     });
   }, []);
@@ -51,13 +50,22 @@ const Hero = () => {
             </h3>
 
             <div className="absolute link1">
-              <a href="https://github.com/EmmyBod" target="_blank">
+              <a
+                href="https://www.upwork.com/freelancers/~01a2a841e7e1767e4e"
+                target="_blank"
+              >
                 <AiOutlineGithub />
               </a>
-              <a href="https://github.com/EmmyBod" target="_blank">
+              <a
+                href="https://www.upwork.com/freelancers/~01a2a841e7e1767e4e"
+                target="_blank"
+              >
                 <ImLinkedin />
               </a>
-              <a href="https://github.com/EmmyBod" target="_blank">
+              <a
+                href="https://www.upwork.com/freelancers/~01a2a841e7e1767e4e"
+                target="_blank"
+              >
                 <AiOutlineInstagram />
               </a>
               <a
@@ -74,7 +82,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
 
       <div className="absolute xs:bottom-2 bottom-6 w-10 flex justify-end items-center">
         <a href="#education">

@@ -95,7 +95,7 @@ const ProjectCard = ({
   );
 };
 const Project = () => {
-  const [selected, setSelected] = useState("WordPress");
+  const [selected, setSelected] = useState("Webflow");
   const [data, setData] = useState([]);
 
   useEffect(() => {

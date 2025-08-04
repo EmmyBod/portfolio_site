@@ -49,14 +49,9 @@ import {
       title: "Four-time recipient of the Torbita Institute Tech Scholarship (2019–2023) for excellence in eCommerce web development.",
     },
     {
-      title: "Served as IT Department Branch Head (2021–2022), leading WordPress and Shopify workshops and mentoring junior developers on Webflow workflows.",
-    },
-    {
       title: "Selected among the top 100 (out of 20k students) in the Google Cloud Training Program (2021), with a focus on hosting scalable WooCommerce and Shopify apps.",
     },
-    {
-      title: "Designed and deployed RESTful APIs and scalable backends to support dynamic Shopify apps, WordPress plugins, and Webflow CMS-driven websites.",
-    },
+   
   ]
   
   const technologies = [
@@ -547,30 +542,32 @@ const list = [
   
   const experiences = [
     {
-      title: "Senior WordPress developer",
+      title: "Webflow Developer",
       company_name: "OMTech Technologies",
       icon: bny,
       iconBg: "#383E56",
       date: "November 2024 - Present",
       link: "",
       points: [
-        "Lead all WordPress web development projects and create eCommerce website execution.",
-        "Designing website front End prototypes using Adobe XD or Figma.",
-        "Developing the website using ELEMENTOR PRO, or another site builder such as Divi",
-        ],
-      link: "https://omtechmasters.co.uk/",
+        "I specialized in converting Figma or Adobe XD designs into fully functional Webflow projects, ensuring clean HTML, CMS integration, or responsive email templates as needed.",
+        "Every Webflow site I built was crafted with Webflow's Designer and CMS, optimized for all breakpoints, and delivered with speed and precision.",
+        "Ensure pixel-perfect layouts using Webflow’s visual canvas, implement responsive design across all devices, and leverage Webflow's built-in performance tools for fast-loading experiences.",
+      ],
+        link: "https://omtechmasters.co.uk/",
     },
     {
-      title: "Webflow Developer",
+      title: "Senior WordPress developer",
       company_name: "Deutrix Tech ",
       icon: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-national-security-agency-crowdfunding-flaticons-lineal-color-flat-icons-2.png",
       iconBg: "#383E56",
       date: "April 2019 - March 2020 ",
       link: "",
       points: [
-        "I specialized in converting Figma or Adobe XD designs into fully functional Webflow projects, ensuring clean HTML, CMS integration, or responsive email templates as needed.",
-        "Every Webflow site I built was crafted with Webflow's Designer and CMS, optimized for all breakpoints, and delivered with speed and precision.",
-        "Ensure pixel-perfect layouts using Webflow’s visual canvas, implement responsive design across all devices, and leverage Webflow's built-in performance tools for fast-loading experiences.",
+       
+        "Lead all WordPress web development projects and create eCommerce website execution.",
+        "Designing website front End prototypes using Adobe XD or Figma.",
+        "Developing the website using ELEMENTOR PRO, or another site builder such as Divi",
+        
       ],
       link: "https://deutrix.com/",
     },
@@ -587,21 +584,6 @@ const list = [
         "Pixel-perfect design, mobile-friendly interfaces, and fast-loading pages for an excellent user experience.",
       ],
       link: "https://zenbit.tech/",
-    },
-    
-    {
-      title: "WordPress | Shopify | Webflow Developer ",
-      company_name: "Upwork Community",
-      icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
-      iconBg: "#383E56",
-      date: "Dec 2024 - Present",
-      link: "",
-      points: [
-        "Designing front End prototypes using Adobe XD or Figma.",
-        "Developing the website using ELEMENTOR and Divi page builder for WordPress or your preferred CMS Platform",
-        "I offer a comprehensive range of services to help businesses establish and enhance their online presence.",
-      ],
-      link: "https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
     },
     {
       title: "Website Speed Optimization ",
